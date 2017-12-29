@@ -20,7 +20,7 @@
 
 **项目结构** 
 ```
-renren-fast
+campusshare
 ├─doc  项目SQL语句
 │
 ├─common 公共模块
@@ -37,7 +37,7 @@ renren-fast
 │  ├─oss 文件服务模块
 │  └─sys 权限模块
 │ 
-├─RenrenApplication 项目启动类
+├─campusshareApplication 项目启动类
 │  
 ├──resources 
 │  ├─mapper SQL对应的XML文件

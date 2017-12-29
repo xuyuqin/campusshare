@@ -4,13 +4,13 @@ spring:
         driverClassName: com.mysql.jdbc.Driver
         druid:
             first:  #数据源1
-                url: jdbc:mysql://localhost:3306/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: renren
-                password: 123456
+                url: jdbc:mysql://rm-uf629feugvf726z1lo.mysql.rds.aliyuncs.com:3306/campusshare?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                username: root
+                password: Xuyu925347574
             second:  #数据源2
-                url: jdbc:mysql://localhost:3306/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: renren
-                password: 123456
+                url: jdbc:mysql://rm-uf629feugvf726z1lo.mysql.rds.aliyuncs.com:3306/campusshare?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                username: root
+                password: Xuyu925347574
             initial-size: 10
             max-active: 100
             min-idle: 10
